@@ -1,0 +1,43 @@
+.picture {
+    /*
+    Lay the picture containers out one after the other. (To see why
+    this line is important, try changing it to 'block' or 'inline'.)
+    */
+    display: inline-block;
+
+    /* add a little space between each picture and the next */
+    margin: 10px;
+}
+.counter{
+    border: #800020  solid 3px;
+    color:#003366  ;
+    height:200px;
+    width:800px;
+    margin-left:5px;
+    
+    
+}
+
+button{
+    color:#4b5320;
+    background-color:#99CC99;}
+.gallery img {
+    /*
+    The original images are all different sizes but we need
+    them to be consistent for the gallery layout to look good.
+    */
+    height: 275px;
+
+    /* add an outline around each picture */
+    border: 3px double blue;
+}
+
+.gallery p {
+    text-align: center;
+    margin-top: 0;
+}
+body{
+    text-align:center;
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKX6xHcktRcyb76i7G6WVtU9AKr3BhOcjceQ&usqp=CAU);
+    color:#800020;
+}
